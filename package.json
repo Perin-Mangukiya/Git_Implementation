@@ -1,0 +1,14 @@
+{
+  "name": "git-implementation",
+  "version": "1.0.0",
+  "description": "Git Version Control Implementation",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node app/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git-implementation": "file:"
+  }
+}
