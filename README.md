@@ -1,4 +1,4 @@
-[![progress-banner](https://backend.codecrafters.io/progress/git/32889ddb-db4e-4d8f-97aa-caf146ed1ed1)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+[![progress-banner](https://backend.codecrafters.io/progress/git/32889ddb-db4e-4d8f-97aa-caf146ed1ed1)]()
 
 # Git Version Implementation
 
@@ -25,20 +25,10 @@ the current working directory. If you're running this inside the root of this
 repository, you might end up accidentally damaging your repository's `.git`
 folder.
 
-We suggest executing `your_program.sh` in a different folder when testing
+I suggest executing `your_program.sh` in a different folder when testing
 locally. For example:
 
 ```sh
 mkdir -p /tmp/testing && cd /tmp/testing
 /path/to/your/repo/your_program.sh init
-```
-
-To make this easier to type out, you could add a
-[shell alias](https://shapeshed.com/unix-alias/):
-
-```sh
-alias mygit=/path/to/your/repo/your_program.sh
-
-mkdir -p /tmp/testing && cd /tmp/testing
-mygit init
 ```
